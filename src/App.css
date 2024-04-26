@@ -1,0 +1,98 @@
+.top{
+    background-color: brown;
+    cursor: pointer;
+}
+.top:hover{
+    background-color: forestgreen;
+}
+.mainpic{
+    width: 200px;
+    height: 70px;
+    margin-left: 70px;
+}
+.apl{
+    margin-top: 35px;
+    cursor: pointer;
+}
+.pla{
+    margin-top: 38px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.blog{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.blog:hover{
+    color: forestgreen;
+    cursor: pointer;
+}
+.ingre{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 25px;
+}
+.ingre:hover{
+    color: forestgreen;
+    cursor: pointer;
+}
+.small{
+    margin-top: 15px;
+}
+.trolly{
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.undo:hover{
+    color: wheat;
+}
+.center{
+    position: relative;
+    margin-left: 36px;
+}
+
+.twoo{
+    margin-left: 40px;
+}
+.buy:hover{
+    cursor: pointer;
+}
+.newy:hover{
+    cursor: pointer;
+}
+
+.direccard{
+    cursor: pointer;
+}
+
+.direc{
+    color: black;
+    background-color: white;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -350px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    /* border: solid 1px; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
