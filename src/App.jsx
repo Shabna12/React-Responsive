@@ -87,17 +87,14 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Hair</Nav.Link>
-            <Nav.Link href="#link">Face</Nav.Link>
+            <Nav.Link href="#HairCare">Hair</Nav.Link>
+            <Nav.Link href="#SkinCare">Skin & Face</Nav.Link>
             <Nav.Link href="#link">Body</Nav.Link>
-            <Nav.Link href="#link">Best Sellers</Nav.Link>
-            <Nav.Link href="#link">Combo</Nav.Link>
-            <Navbar.Brand href="#home" className='border rounded p-2 undo' style={{backgroundColor:'forestgreen'}}>Offers</Navbar.Brand>
+            <Nav.Link href="#Buymore">Best Sellers</Nav.Link>
+            <Nav.Link href="#lots">Combo</Nav.Link>
+            <Navbar.Brand href="#Buymore" className='border rounded p-2 undo' style={{backgroundColor:'forestgreen'}}>Offers</Navbar.Brand>
             <Nav.Link href="#link">Travel Minis</Nav.Link>
             <Nav.Link href="#link">Help Me Choose</Nav.Link>
-            <Nav.Link href="#link">Men</Nav.Link>
-            <Nav.Link href="#link">Baby</Nav.Link>
-            <Nav.Link href="#link">Cosmetics</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </Container>
@@ -133,7 +130,7 @@ function App() {
       <div className='set1 container'>
        <div className='text-center'> <h2 className='fw-bolder fs-1' data-aos="zoom-y-out" >BEST SELLERS</h2> </div> <br />
        <div className='justify-content-center align-items-center'>
-         <p className='text-center fs-3' data-aos="zoom-y-out" data-aos-delay="50">Hair Care</p> <br />
+         <p id='HairCare' className='text-center fs-3' data-aos="zoom-y-out" data-aos-delay="50">Hair Care</p> <br />
          <div className="row">
            <div className="col-md">
              <Card className='p-2' style={{border:'none'}}>
@@ -199,7 +196,7 @@ function App() {
              </Card>
             </div>
           </div> <br /> <br />
-          <p className='text-center fs-3' data-aos="zoom-y-out" data-aos-delay="50">Skin Care</p> <br />
+          <p id='SkinCare' className='text-center fs-3' data-aos="zoom-y-out" data-aos-delay="50">Skin Care</p> <br />
           <div className="row">
            <div className="col-md">
              <Card className='p-2' style={{border:'none'}}>
@@ -268,10 +265,10 @@ function App() {
 
       {/* buy more save more card-2 */}
       <div className="set2 container">
-       <div className='text-center'>  <h2 className='fw-bolder fs-1' data-aos="zoom-y-out" >Buy More Save More </h2>  </div> <br /> <br />
+       <div id='Buymore' className='text-center'>  <h2 className='fw-bolder fs-1' data-aos="zoom-y-out" >Buy More Save More </h2>  </div> <br /> <br />
        <div className="row buy">
           <div className="col-md-6">
-            <img style={{width:'400px', height:'400px'}} src={setmore} alt="" />
+            <img className='buy1' style={{width:'400px', height:'400px'}} src={setmore} alt="" />
           </div>
           <div className="col-md-6">
             <img className='twoo' style={{width:'400px', height:'400px'}} src={setmore1} alt="" />
@@ -281,7 +278,7 @@ function App() {
 
       {/* combo card-3 */}
       <div className="set1 container">
-        <div className='text-center'>  <h2 className='fw-bolder fs-1' data-aos="zoom-y-out">Combo's</h2>   </div> <br /> <br />
+        <div id='lots' className='text-center'>  <h2 className='fw-bolder fs-1' data-aos="zoom-y-out">Combo's</h2>   </div> <br /> <br />
         <div className="row">
         <div className="col-md">
              <Card className='p-2' style={{border:'none'}}>

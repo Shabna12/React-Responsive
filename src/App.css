@@ -55,8 +55,12 @@
     margin-left: 36px;
 }
 
+.buy1{
+    max-width: 100%;
+}
 .twoo{
-    margin-left: 40px;
+    max-width: 100%;
+    /* margin-left: 20px; */
 }
 .buy:hover{
     cursor: pointer;
